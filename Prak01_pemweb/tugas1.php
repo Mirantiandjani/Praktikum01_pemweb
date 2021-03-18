@@ -61,7 +61,7 @@
             $nilai_uts = $_GET["pemrograman_web"];
             $nilai_uas = $_GET["statistik"];
             $nilai_tugas = $_GET["belajar_web"];
-            $total_nilai = ($uas +$uts +$assignment_value)/3;
+            $total_nilai = ($nilai_uas +$nilai_uts +$nilai_tugas)/3;
             if($total_nilai >=85 and $total_nilai <=100){
                 $value = "A"; 
             } elseif($total_nilai >=70 and $total_nilai <=84){
